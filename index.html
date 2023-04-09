@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive website</title>
+    <!---stylesheet-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--ICONSCOUNT CDN-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--google fonts (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------swiperjs------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- scroll button section -->
+
+    <div id="scroll-to-top"><i class="uil uil-angle-double-up"></i></div>
+    <div id="scroll-to-bottom"><i class="uil uil-angle-double-down"></i></div>
+
+    <!--navigation bar and this style of naming classes is called BEM (Block Element Modifier)-->
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html"><h4>TECH ASSISTA</h4></a>
+        <!--logo-->
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!--------------END OF NAVBAR----------------->
+
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <h1>Grow your skills to advanced your career path</h1>
+          <p>
+            Embrace the power of skill-building and stay ahead of the curve with
+            TechAssista. We provide the resources and support you need to hone
+            your abilities and confidently forge ahead in your career journey,
+            equipped with the proficiency and excellence that sets you apart
+            from the rest.
+          </p>
+
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header_right">
+          <div class="header_right-image">
+            <img src="css/image/20221001_160928.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-----------------------end of th hearder--------------------->
+
+    <section class="categories">
+      <div class="container categories_container">
+        <div class="categories_left">
+          <h1>Categories</h1>
+          <p>
+            There are several categories of educational resources and services
+            that individuals can use to develop new skills, advance their
+            careers, and achieve their goals.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="categories_right">
+          <article class="category">
+            <span class="category_icon">
+              <i class="uil uil-wrench"></i>
+            </span>
+            <h5>Skill-based courses</h5>
+            <p>
+              Online courses that teach practical skills like coding, web
+              development, graphic design, and data analytics etc....
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-english-to-chinese"></i
+            ></span>
+            <h5>Language learning courses</h5>
+            <p>
+              Online courses that teach foreign languages like English and
+              Arabic.
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-graduation-cap"></i
+            ></span>
+            <h5>Test preparation courses</h5>
+            <p>
+              Online/Offline courses that help students prepare for standardized
+              tests like the SAT, GRE, and GMAT.
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-video"></i></span>
+            <h5>Online tutoring services</h5>
+            <p>
+              Online tutoring services that offer personalized academic support
+              to students of all ages and levels.
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-university"></i
+            ></span>
+            <h5>Career development and job search resources</h5>
+            <p>
+              Online/ Offline resources that provide guidance on career
+              planning, job searching, resume building, and interviewing.
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-robot"></i></span>
+            <h5>Educational technology tools and software</h5>
+            <p>
+              Online tools and software that facilitate learning and teaching,
+              such as learning management systems and educational apps.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!---------END OF CATEGORIES--------------->
+
+    <section class="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses_container">
+        <article class="course">
+          <div class="course_image">
+            <img src="css/image/ai.jpg" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Artificial Inteligence</h4>
+            <p>
+              An AI course teaches machine learning, natural language
+              processing, and computer vision. It develops valuable skills that
+              are in high demand in today's job market.
+            </p>
+            <br />
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="css/image/course2-.webp" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Web Development</h4>
+            <p>
+              A web development course teaches HTML, CSS, JavaScript, and web
+              design principles. It develops valuable skills that are in high
+              demand in the tech industry.
+            </p>
+           
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="css/image/Machine-Learning.jpg" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Data Science</h4>
+            <p>
+              A circuit designing course teaches basic electronics, circuit
+              design, and microcontroller programming. It develops valuable
+              skills that are useful in fields like electrical engineering and
+              robotics.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!---------END OF Courses--------------->
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs_container">
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>What services do you offer?</h4>
+            
+            <p>
+              We offer a range of services, including Skill-based
+              courses,Language learning courses,Test preparation courses,Online
+              tutoring services,Career development and job search
+              resources,Educational technology tools and software etc..
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know if your services are right for me?</h4>
+            <p>
+              Our services are designed to meet the needs of a range of
+              individuals and businesses. We encourage you to contact us to
+              discuss your specific needs and goals so we can help you determine
+              if our services are a good fit for you.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>What is your experience in providing these services?</h4>
+            <p>
+              Our team has years of experience providing [insert specific
+              services]. We have worked with a range of clients, from
+              individuals to large businesses, and have a proven track record of
+              success.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>
+              Can you provide references or testimonials from past clients?
+            </h4>
+            <p>
+              Absolutely! We would be happy to provide references or
+              testimonials from past clients who have used our services and
+              achieved great results.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How long does it take to see results from your services?</h4>
+            <p>
+              he timeline for seeing results varies depending on the specific
+              service(s) you require and your unique situation. We will work
+              with you to set realistic expectations and provide regular updates
+              on your progress.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>Do you offer any guarantees?
+            <p>
+              We stand behind the quality of our services and offer a
+              satisfaction guarantee. If you are not completely satisfied with
+              our services, we will work with you to make it right.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>Can you customize your services to meet my specific needs?</h4>
+            <p>
+              Yes! We understand that every client is unique and has different
+              needs and goals. We will work with you to develop a customized
+              plan that meets your specific needs and helps you achieve your
+              goals.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>Do you have any special offers or discounts?</h4>
+            <p>
+              Yes! We occasionally offer special promotions or discounts to our
+              clients. Be sure to sign up for our newsletter to stay up-to-date
+              on any special offers or discounts.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I make payments for your services? ></h4>
+            <p>
+              We offer a range of payment options, including credit cards,
+              PayPal, and bank transfers. We will work with you to determine the
+              best payment method for your needs.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>Can I get a refund if I am not satisfied with the service?</h4>
+            <p>
+              We offer a satisfaction guarantee and will work with you to ensure
+              that you are completely satisfied with our services. If you are
+              not satisfied, we will work with you to make it right. If we are
+              unable to resolve the issue, we may offer a refund.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How much do your services cost?</h4>
+            <p>
+              Our pricing varies depending on the specific service(s) you
+              require. We offer transparent pricing and will provide you with a
+              detailed quote once we have a better understanding of your needs.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>
+              Can you provide ongoing support after the service is completed?
+            </h4>
+            <p>
+              Yes! We offer ongoing support to our clients to ensure that they
+              continue to see success after the service is completed. We are
+              always available to answer any questions or concerns you may have.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!---------END OF FAQ--------------->
+
+    <section class="container testimonials_container mySwiper">
+      <h2>Students testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="css/image/avatar1.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h2>Rahul sharma</h2>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              I've had the pleasure of having Sadiq Mohammed as a teacher for
+              the past year and he has been nothing short of amazing. He is
+              extremely knowledgeable and passionate about his subject, which
+              makes learning from him both enjoyable and informative. He also
+              has a great ability to explain complex concepts in an
+              easy-to-understand manner, making it easier for students to grasp
+              them. I highly recommend Sadiq Mohammed as a teacher!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="css/image/images2-.jpeg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h2>jamsheed</h2>
+            <small>student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Attending the technical workshop on web development was a game-changer for me. I had some knowledge about HTML and CSS, but the workshop helped me understand the concepts better and gave me the confidence to build my own websites. The instructor was knowledgeable and engaging, and I loved the hands-on approach of the workshop.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="css/image/avatar4.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h2>Rahul sharma</h2>
+            <small>student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              I participated in a workshop on Python programming, and it was one of the best learning experiences I've had. The instructor was patient and explained the concepts in a way that was easy to understand. I loved the interactive coding exercises, which helped me apply what I had learned. Overall, the workshop was a great way to get started with Python.
+            </p>
+
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="css/image/avatar5.jpeg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h2>Rahul sharma</h2>
+            <small>student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              I really enjoyed the hardware project course. We learned about circuit design, microcontrollers, and other key concepts in electronics. The instructors were very helpful and provided us with a lot of resources to help us succeed. We also had access to a well-equipped lab, which allowed us to test our designs and troubleshoot any issues. Overall, I feel much more confident in my electronics skills after completing this course.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="css/image/avatar6.jpeg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h2>Rahul sharma</h2>
+            <small>student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              The hardware project course was one of the best learning experiences I've had. We worked on a project from start to finish, which involved research, design, prototyping, and testing. The instructors were knowledgeable and supportive, and they challenged us to think creatively and critically. I feel much more comfortable working with electronics after completing this course, and I would recommend it to anyone interested in hardware design.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="css/image/avatar7.jpeg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h2>Rahul sharma</h2>
+            <small>student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Participating in the project competition was one of the highlights of my academic career. It was a great opportunity to apply what I had learned in class to a real-world project. I enjoyed the challenge of working on a team and coming up with a creative solution to the problem. The competition was well-organized, and the judges provided valuable feedback that helped us improve our project.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-----------------------------------------End of the Testmonial-------------------->
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_1">
+          <a href="index.html" class="footer_logo"><h4>TECH ASSISTA</h4></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam
+            temporibus culpa dolorum dolore molestias. Perferendis!
+          </p>
+        </div>
+
+        <div class="footer_2">
+          <h4>Permalink</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_3">
+          <h4>privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Refunt policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_4">
+          <h4>contact us</h4>
+          <div>
+            <p>+91 871 411 2256</p>
+            <p>studytools786@gmail.com</p>
+          </div>
+
+          <ul class="footer_socials">
+            <li>
+              <a href="#"> <i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-linkedin-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <small>Copyright &copy;Tetra YouTube Channel</small>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        //when window width > + 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
