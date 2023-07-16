@@ -157,7 +157,8 @@ header {
 }
 /*--------------------------------categories-------------------------*/
 .categories {
-  height: 40rem;
+  margin-top: 250px;
+  height: 42rem;
   background: var(--color-bg1);
 }
 .categories h1 {

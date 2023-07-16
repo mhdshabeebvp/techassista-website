@@ -75,6 +75,7 @@
   border-color: var(--color-primary);
 }
 .team_member-image img {
+  height: 16rem;
   filter: saturate(0);
 }
 .team_member:hover img {
@@ -111,6 +112,7 @@
 /*==========MEDIA QUERIES  (TABLETS)============*/
 
 @media screen and (max-width: 1024px) {
+
   .about_achievements {
     margin-top: 2rem;
   }
