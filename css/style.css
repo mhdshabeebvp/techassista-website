@@ -307,7 +307,6 @@ header {
 }
 .testimonial_body {
   background: var(--color-primary);
-  overflow-y: scroll;
   padding: 2rem;
   margin-top: 3rem;
   position: relative;
@@ -512,7 +511,7 @@ footer ul li a:hover {
   /*------------------------catagories----------------------------*/
   .categories_right {
     grid-template-columns: 1fr 1fr;
-    gap: 0.7re;
+    gap: 0.7rem;
   }
   .category {
     padding: 1rem;
@@ -530,6 +529,7 @@ footer ul li a:hover {
   /*------------------------testimonial----------------------------*/
   .testimonial_body {
     padding: 1.2rem;
+    overflow-y: scroll;
     
   }
   .footer_container {
