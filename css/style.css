@@ -307,6 +307,7 @@ header {
 }
 .testimonial_body {
   background: var(--color-primary);
+  overflow-y: scroll;
   padding: 2rem;
   margin-top: 3rem;
   position: relative;
