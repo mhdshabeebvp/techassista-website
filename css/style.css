@@ -128,23 +128,6 @@ nav button {
   font-size: 1.3rem;
   transition: var(--transition);
 }
-/* add nav blur effect */
-ul {
-  display: flex;
-  gap: 2.5rem;
-}
-li {
-  display: block;
-  transition: 0.5s;
-}
-ul:hover li {
-  filter: blur(5px);
-}
-ul li:hover {
-  filter: blur(0px);
-  color: white;
-}
-
 /* sample */
  /* Style for the header container */
  .header_container {
