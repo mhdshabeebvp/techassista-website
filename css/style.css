@@ -128,10 +128,22 @@ nav button {
   font-size: 1.3rem;
   transition: var(--transition);
 }
-.nav_menu a:hover {
-  color: var(--color-bg2);
-}
 
+ul {
+  display: flex;
+  gap: 2.5rem;
+}
+li {
+  display: block;
+  transition: 0.5s;
+}
+ul:hover li {
+  filter: blur(5px);
+}
+ul li:hover {
+  filter: blur(0px);
+  color: white;
+}
 /*--------------------------------header-------------------------*/
 
 header {
@@ -530,7 +542,6 @@ footer ul li a:hover {
   .testimonial_body {
     padding: 1.2rem;
     overflow-y: scroll;
-    
   }
   .footer_container {
     grid-template-columns: 1fr;
